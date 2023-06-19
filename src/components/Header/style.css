@@ -1,0 +1,38 @@
+header {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.4rem;
+  padding-right: 2rem;
+}
+
+.navigation {
+  display: block;
+}
+
+ul {
+  display: flex;
+  gap: 4rem;
+}
+
+.navigation a {
+  color: black;
+  position: relative;
+  display: flex;
+  height: 2.55rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation a:hover {
+  scale: 1.05;
+  border-bottom: 1px solid rgb(17, 47, 1);
+}
+
+.navigation a.active {
+  color: rgb(39, 110, 0);
+  border-bottom: 1px solid rgb(13, 37, 0);
+}
