@@ -1,6 +1,4 @@
 #about-me {
-  background-size: cover;
-  background-position: center;
   min-height: calc(100vh - 6rem);
   display: flex;
   align-items: center;

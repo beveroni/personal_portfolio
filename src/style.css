@@ -1,19 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Overpass+Mono&family=Prompt&display=swap');
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0 auto;
-  text-decoration: none;
   list-style: none;
   cursor: default;
 }
 
+:root {
+  --background: rgb(203, 205, 205);
+  --text-font: 'Josefin Sans', sans-serif;
+  --backround-header: rgb(125, 167, 127);
+
+}
+
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: var(--text-font);
 }
 
 main {
+  background-color: var(--background);
   position: relative;
   width: 100%;
   height: 100%;
